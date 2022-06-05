@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(./pattern-background-desktop.svg);
+}
+.container {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 5px;
+    
+    
+}
+
+.firstdiv{
+    width: 350px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(./illustration-hero.svg);
+}
+.seconddiv{
+    background-color: rgba(255, 255, 255, 0.941);
+    width: 350px;
+    height: 300px;
+    border-radius: 3px;
+ 
+}
+h4{
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+    font-family: serif;   
+}
+p{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: serif;
+}
+img{
+    width: 40px;
+}
+.lastdiv{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 25px;
+    gap: 20px;
+    background-color: #f8f9fe;
+    width: 300px;
+    height: 40px;
+}
+h5{
+    margin-top: 5px;
+    
+}
+a{
+    margin-left: 80px;
+    margin-top: 5px;
+}
+button{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 280px;
+    height: 30px;
+    background-color: #382ec6;
+    color: #f8f9fe;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 10px;
+}
+.order{
+    position: relative;
+    top: 20px;
+    margin-left: 140px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: serif;
+    font-weight: 400;
+   
+}
+   .sm{
+       margin-left: -90px;
+       margin-top: 22px;
+      
+       font-size:12px;
+   }
